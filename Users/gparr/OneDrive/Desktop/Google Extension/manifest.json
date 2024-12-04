@@ -1,0 +1,22 @@
+{
+    "name": "Sport Tracker",
+    "version": "1.0.0",
+    "description": "Keep up to date with all of the scores from your favorite sports teams",
+    "manifest_version": 3,
+    "author": "Greg Parra",
+    "action": {
+        "default_popup": "index.html",
+        "default_title": "Sport Tracker"
+    },
+
+    "permissions": [
+        "activeTab",
+        "https://sportscore1.p.rapidapi.com/"
+    ],
+
+    "icons": {
+        "48": "images/trophy48.png"
+    }
+
+
+}
